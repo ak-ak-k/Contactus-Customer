@@ -189,7 +189,7 @@ a {
     .join_btn {
       background-color: #111 !important;
       min-height: 30px;
-      min-width: 70px;
+      min-width: 130px;
       border-radius: 100px;
       color: white;
       font-size: 11px;
@@ -198,10 +198,7 @@ a {
       border: none;
       cursor: pointer;
       margin-right: 6px;
-      padding: 0px 23px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      padding: 3px 23px;
     }
     .footer-sm-section .title h1 {
       font-size: 26px;
@@ -424,9 +421,7 @@ a {
   @media screen and (max-width: 1024px) {
     .mainHeader {
       /* margin: 0px 20px 0px 20px; */
-      /* padding: 0 20px; */
-      padding: 0;
-      overflow-x: hidden;
+      padding: 0 20px;
       /* margin: 0px 160px 0px 160px; */
       background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
       width: 100%;
@@ -1176,7 +1171,7 @@ a {
     font-weight: 400;
     /* margin: 0px 160px 0px 160px; */
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
-    /* width: 100%; */
+    width: 100%;
     padding: 0 160px;
     display: flex;
     flex-direction: column;
@@ -1226,7 +1221,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 28px;
+    /* padding-top: 28px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -2141,7 +2136,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 60px;
+    /* padding-top: 60px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -3021,7 +3016,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 60px;
+    /* padding-top: 60px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -3829,7 +3824,7 @@ a {
     font-weight: 400;
     /* margin: 0px 160px 0px 160px; */
     background: linear-gradient(105.18deg, #fdb271 0%, #fe9ea1 78.54%, #ffbd81 90%, #ffa862 100%);
-    /* width: 100%; */
+    width: 100%;
     padding: 0 160px;
     display: flex;
     flex-direction: column;
@@ -3885,7 +3880,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 30px;
+    /* padding-top: 30px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -4753,7 +4748,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 60px;
+    /* padding-top: 60px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -5603,7 +5598,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 28px;
+    /* padding-top: 28px; */
     display: flex;
     color: #111;
     justify-content: space-between;
@@ -6737,7 +6732,7 @@ a {
   header {
     z-index: 3;
     /* text-transform: uppercase; */
-    padding-top: 20px;
+    /* padding-top: 20px; */
     display: flex;
     color: #111;
     justify-content: space-between;

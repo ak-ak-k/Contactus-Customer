@@ -1,5 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8000ff;
+}
+::-webkit-scrollbar-track {
+  background: #564e5e;
+}
+
+html,
+body {
+  overscroll-behavior-x: none;
+  cursor: default !important;
+  overscroll-behavior: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--primaryFont);
+  color: var(--blackColor);
+  font-size: 1em;
+  line-height: 25px;
+  font-weight: 400;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+  transition: var(--transition);
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
 .content {
   margin: 5% 0% 5% 8%;
+  display: flex;
+  width: 85%;
 }
 
 .content_p p {
@@ -18,7 +66,7 @@
   font-size: 1rem !important;
   line-height: 30px;
   color: #6f6f6f;
-  max-width: 42%;
+  max-width: 80%;
   padding: 2% 0 0 0;
 }
 
@@ -40,6 +88,7 @@
   border: 1px solid #cecece;
   border-radius: 20px;
   cursor: pointer;
+  position: relative;
 }
 
 .card_block .title {
@@ -64,9 +113,14 @@
 
 .card_img {
   object-fit: contain;
+  position: absolute;
+  bottom: 0;
 }
 
 @media screen and (max-width: 900px) {
+  .content {
+    flex-direction: column;
+  }
   .content_p p {
     font-size: 1.5rem !important;
     line-height: 30px;
